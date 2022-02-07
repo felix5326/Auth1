@@ -13,7 +13,7 @@ use pocketmine\utils\MainLogger as M;
 
 use pocketmine\Player;
 
-use Auth\FormAPI\CustomForm;
+use FormAPI\CustomForm;
 
 class Auth extends PluginBase implements Listener 
 {
