@@ -1,0 +1,9 @@
+name: Auth1
+author: timmdev1
+version: 1.0.1
+api: 3.26.0
+main: Auth\Auth
+
+commands:
+  password:
+    description: "Change your password."
