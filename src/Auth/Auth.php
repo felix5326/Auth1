@@ -26,7 +26,7 @@ class Auth extends PluginBase implements Listener
     /**
      * @var string
      */
-    public const = "§3Auth §8>";
+    public const PREFIX = "§3Auth §8>";
 
     public function onEnable()
 	{
