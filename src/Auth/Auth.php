@@ -1,5 +1,7 @@
 <?php
-
+/**
+eklenti eski bir eklentimdir, bu hali güncellenmiş/yeni halidir.
+*/
 namespace Auth;
 
 use pocketmine\plugin\PluginBase;
