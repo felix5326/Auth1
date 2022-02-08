@@ -106,7 +106,7 @@ class Auth extends PluginBase implements Listener
         $player = $event->getPlayer();
         if ($this->login[$player->getName()] != false) {
             $event->setCancelled(true);
-            $event->getPlayer()->sendPopup("§cGiriş yapmalısın:\n§7/giris");
+            $player->sendMessage("§cGiriş yapmalısın:\n§7/giris");
 						return;
         }
     }
