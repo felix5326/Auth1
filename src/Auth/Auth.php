@@ -91,7 +91,7 @@ class Auth extends PluginBase implements Listener
 				}
 				$cfg->set("Sifre", $encrypt);
 				$cfg->save();
-				$p->sendMessage("§aBaşarıyla şifreniz değiştirildi!");
+				$player->sendMessage("§aBaşarıyla şifreniz değiştirildi!");
 
 			});
 			$form->setTitle("Şifre Değiştir");
