@@ -104,14 +104,6 @@ class Auth extends PluginBase implements Listener
         return true;
     }
     
-    /*public function onMove(PlayerMoveEvent $event){
-        $player = $event->getPlayer();
-        if ($this->login[$player->getName()] != false) {
-            $event->setCancelled(true);
-            $player->sendMessage("§cGiriş yapmalısın:\n§7/giris");
-						return;
-        }
-    }*/
     
     /** @param PlayerJoinEvent $event */
     public function onJoin(PlayerJoinEvent $event) {
